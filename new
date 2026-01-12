@@ -23,7 +23,7 @@ pipeline {
                 // checkout is a Jenkins SCM step
                 // Pulls source code into Jenkins WORKSPACE
                 git branch: 'main',
-                    url: 'https://github.com/your-org/your-repo.git'
+                    url: 'https://github.com/Sneha-Mourya-07/Devops_Project.git'
  
                 // Print confirmation in console
                 echo 'Code pulled successfully from Git'
